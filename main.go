@@ -318,7 +318,7 @@ func main() {
 	db = ouidb.New("ouidb.txt")
 
 	if db == nil {
-		fmt.Println("DB failed to initialise, please check whether /lib/ascan/ouidb.txt exists.")
+		fmt.Println("DB failed to initialise, please check whether ouidb.txt exists.")
 		os.Exit(-1)
 	}
 
